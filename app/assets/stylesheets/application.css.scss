@@ -32,9 +32,27 @@
 }
 
 .navbar{
+  //color:rbga(0, 0, 0, .6);
   border: none;
 }
+
+.navbar-default .navbar-brand{
+  color: rgba(0,0,0,.6);
+  
+}
+
+ .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+   color: rgba(0,0,0,.9);
+ }
  
+.navbar-default .navbar-nav > li > a {
+  color: rgba(0,0,0,.6);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: rgba(00,0,0,.9);
+}
+
 h1, h2, h3{
   font-family: 'Open Sans', sans-serif;
 }

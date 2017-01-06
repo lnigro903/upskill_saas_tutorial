@@ -16,7 +16,8 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
- 
+
+//Background gradient 
 .welcome, .navbar {
   //Gradient provided by @_igosh at uiGradients.com
   background: #E0EAFC; /* fallback for old browsers */
@@ -24,6 +25,7 @@
   background: linear-gradient(to left, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 } 
 
+//Homepage styles
 .welcome{
   color: rgba(0,0,0,.6);
   margin-top: -20px;
@@ -31,11 +33,13 @@
   padding-bottom: 100px;
 }
 
+//Navbar styles
 .navbar{
   //color:rbga(0, 0, 0, .6);
   border: none;
 }
 
+//Navbar objects hovering styles.
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: rgba(0,0,0,.6);
@@ -44,6 +48,7 @@
   }
 }
 
+//Typography styles
 h1, h2, h3{
   font-family: 'Open Sans', sans-serif;
 }
